@@ -5,9 +5,7 @@ import { useForm } from 'react-hook-form';
 
 const Login = () => {
     const { handleSubmit, register, errors } = useForm();
-    const onSubmit = values => {
-        console.log(values);
-    };
+    const onSubmit = values => console.log(values);
     return (
         <div className="container-fluid">
             <h1 className="display-4">FARMPRO</h1>
