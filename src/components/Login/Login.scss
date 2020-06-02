@@ -1,46 +1,43 @@
 body {
+  padding: 30px;
+
+  .container-fluid {
+    width: 75%;
+    background-color: burlywood;
+    margin-top: 5%;
+    color: rgb(36, 23, 23);
     padding: 30px;
-    
-    .container-fluid{
-        width: 75%;
-        background-color: burlywood;
-        margin-top: 5%;
-        color: rgb(36, 23, 23);
-        padding: 30px;
 
-        h1 {
-            text-align: center;
-            color: blue;
-            font-weight: 500;
-            font-size: 30px;
-        }
+    h1 {
+      text-align: center;
+      color: blue;
+      font-weight: 500;
+      font-size: 30px;
+    }
 
-        form {
-            text-align: center;
-            margin: 40px;
-            label {
-                font-size: 19px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                padding: 20px;
-                text-align: left;
-                padding-right: 10px;
-            }
+    form {
+      text-align: center;
+      margin: 40px;
+      label {
+        font-size: 19px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding: 20px;
+        text-align: left;
+        padding-right: 10px;
+      }
 
-            input {
-                text-align: center;
-                border-style: inset;
-                
-            }
+      input {
+        text-align: center;
+        border-style: inset;
+      }
 
-            button {
-                font-size: 17px;
-                margin-top: 10px;
-            }
-            
-        }
-        .lead {
-            text-align: center;
-
-        }
-    } 
+      button {
+        font-size: 17px;
+        margin-top: 10px;
+      }
+    }
+    .lead {
+      text-align: center;
+    }
+  }
 }
